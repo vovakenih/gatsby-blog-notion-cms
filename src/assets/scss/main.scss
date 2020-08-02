@@ -44,7 +44,9 @@
 	$size-header-pad: 4em;
 
 /* Basic */
-
+	[data-block-id] {
+		max-width: 100%!important;
+		}
 	body {
 		background: _palette(bg);
 

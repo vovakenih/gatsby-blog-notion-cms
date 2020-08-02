@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
@@ -42,16 +41,13 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Recent Stuff</h2>
 
-          <Gallery />
+          
 
           <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
+            <li> <a href="blog" className="button"> All Articles </a> </li>
+            <li> <a href="subscribe" className="button"> All Newsletters </a> </li>
           </ul>
         </section>
 
